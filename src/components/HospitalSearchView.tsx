@@ -1,10 +1,9 @@
 import { useState, useEffect, useCallback } from "react";
 import { 
-  Search, MapPin, Building2, Stethoscope, ArrowLeft, ArrowRight, Activity, Filter, 
+  MapPin, Building2, Stethoscope, ArrowLeft, Activity, Filter, 
   Ambulance, Phone, Navigation, Wind, HeartPulse, CheckCircle2, Clock, 
-  ShieldCheck, Star, Award, X, TrendingDown, TrendingUp, BarChart3, Users, Bed, Map as MapIcon
+  ShieldCheck, Star, TrendingDown, TrendingUp, Users, Bed, Map as MapIcon
 } from "lucide-react";
-import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
